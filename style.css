@@ -63,3 +63,31 @@ footer{padding:40px 0;text-align:center;color:#888;border-top:1px solid rgba(255
 h1{font-size:3.5rem}
 .socials a{width:52px;height:52px}
 }
+.socials{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.socials a{
+    width:60px;
+    height:60px;
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    text-decoration:none;
+    font-size:24px;
+    transition:.3s ease;
+}
+
+.socials a:hover{
+    background:#fff;
+    color:#000;
+    transform:translateY(-6px);
+}
