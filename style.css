@@ -36,14 +36,14 @@ h1{font-size:clamp(3rem,8vw,6rem);line-height:.95;margin-bottom:20px}
 .profile-card{border:1px solid rgba(255,255,255,.15);border-radius:24px;padding:12px;background:rgba(255,255,255,.05);backdrop-filter:blur(10px)}
 .profile-card img{width:100%;display:block;border-radius:18px}
 section{padding:90px 0}
-h2{font-size:1.5rem;margin-bottom:20px}
+h2{font-size:2.2rem;margin-bottom:20px}
 .pb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .pb-card{
 background:rgba(255,255,255,.05);
 border:1px solid rgba(255,255,255,.08);
 padding:28px;border-radius:18px;
 transition:.3s}
-.pb-card:hover{transform:translateY(-8px);border-color:#fff}        
+.pb-card:hover{transform:translateY(-8px);border-color:#fff}
 .pb-card p{font-size:1.4rem;font-weight:700}
 .socials{display:flex;flex-wrap:wrap;gap:18px}
 .socials a{
