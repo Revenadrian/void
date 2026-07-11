@@ -42,7 +42,7 @@ const config = {
 
        "There nothing left to lose",
 
-       "Enama of the state",
+       "Enema of the state",
 
        "All killer, no filler",
 
