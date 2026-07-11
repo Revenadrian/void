@@ -12,7 +12,7 @@ const config = {
         instagram: "https://instagram.com/Revenadriantan",
         tiktok: "https://tiktok.com/@Revenadrntan",
         threads: "https://threads.net/@revenadriantan",
-        strava: "https://strava.app.link/6G5kszHcG4b",
+        strava: "https://www.strava.com/athletes/rvnadrtan",
         hevy: "https://hevy.com/user/Revenadrian",
         spotify: "https://open.spotify.com/user/31mk722dbhei6ecms6adyz6svrjm?si=44462e83211349ac"
     },
