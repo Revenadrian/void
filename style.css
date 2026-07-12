@@ -183,3 +183,84 @@ h1{font-size:3.5rem}
     opacity: 0.5;
     letter-spacing: 2px;
 }
+
+/* ===========================
+   RANDOM KNOWLEDGE
+=========================== */
+
+.knowledge {
+    width: min(90%, 650px);
+    margin: 100px auto 50px;
+    padding: 30px;
+    border: 1px solid #222;
+    background: #050505;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.knowledge:hover {
+    border-color: #555;
+    transform: translateY(-4px);
+}
+
+
+/* HEADER */
+
+.knowledge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 18px;
+    margin-bottom: 25px;
+
+    border-bottom: 1px solid #222;
+
+    font-size: 11px;
+    letter-spacing: 3px;
+    opacity: 0.6;
+}
+
+.status {
+    font-size: 10px;
+}
+
+
+/* CONTENT */
+
+.knowledge-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+}
+
+.knowledge-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    opacity: 0.7;
+    max-width: 550px;
+}
+
+
+.knowledge-content a {
+    display: inline-block;
+
+    margin-top: 25px;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: white;
+    text-decoration: none;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+
+    transition: 0.3s;
+}
+
+
+.knowledge-content a:hover {
+    border-color: white;
+}
