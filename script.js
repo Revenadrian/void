@@ -287,3 +287,19 @@ async function loadLastListening() {
 }
 
 loadLastListening();
+
+async function updateVisitor() {
+    try {
+        const response = await fetch(
+            "https://api.counterapi.dev/v1/reven-portfolio/visits/up"
+        );
+
+        const data = await response.json();
+
+        document.getElementById("counter").innerText = data.count;
+    } catch (error) {
+        document.getElementById("counter").innerText = "offline";
+    }
+}
+
+updateVisitor();
