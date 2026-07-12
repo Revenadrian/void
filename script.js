@@ -249,14 +249,14 @@ async function loadLastListening() {
             track.image[3]["#text"];
 
         if (track.date) {
-            document.getElementById("last-time").textContent =
-                track.date["#text"];
-        } else {
-            document.querySelector(".music-status").innerHTML =
-                '<i class="ri-disc-fill"></i> Currently Listening';
-            document.getElementById("last-time").textContent =
-                "Now Playing ●";
-        }
+    document.getElementById("last-time").textContent =
+        timeAgo(Number(track.date.uts));
+} else {
+    document.querySelector(".music-status").innerHTML =
+        '<i class="ri-disc-fill"></i> Currently Listening';
+    document.getElementById("last-time").textContent =
+        "Now Playing ●";
+}
 
     } catch (err) {
 
