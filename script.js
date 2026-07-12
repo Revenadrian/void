@@ -261,7 +261,8 @@ async function loadLastListening() {
         const track = data.recenttracks.track[0];
 
         document.getElementById("last-song").textContent = track.name;
-        document.getElementById("last-artist").textContent = track.artist["#text"];
+       document.getElementById("last-artist").textContent =
+            track.artist["#text"];
         document.getElementById("last-cover").src = track.image[3]["#text"];
 
         if (track.date) {
