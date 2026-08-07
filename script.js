@@ -18,7 +18,7 @@ const config = {
     },
 
     pb: {
-         "5k": "Avg Pace 6:24 00:31:59",
+         "5k": "Avg Pace 5:45 00:28:45",
         "10k": "Avg Pace 7:15 01:12:45",
         "15k": "Avg Pace 7:32 01:53:01",
         "21k": "Avg Pace 7:45 02:43:20"
